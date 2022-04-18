@@ -1,0 +1,8 @@
+C:\Users\iamomkar\source\repos\hash\hash\bin\Debug\hash.exe.config
+C:\Users\iamomkar\source\repos\hash\hash\bin\Debug\hash.exe
+C:\Users\iamomkar\source\repos\hash\hash\bin\Debug\hash.pdb
+C:\Users\iamomkar\source\repos\hash\hash\obj\Debug\hash.csproj.AssemblyReference.cache
+C:\Users\iamomkar\source\repos\hash\hash\obj\Debug\hash.csproj.SuggestedBindingRedirects.cache
+C:\Users\iamomkar\source\repos\hash\hash\obj\Debug\hash.csproj.CoreCompileInputs.cache
+C:\Users\iamomkar\source\repos\hash\hash\obj\Debug\hash.exe
+C:\Users\iamomkar\source\repos\hash\hash\obj\Debug\hash.pdb
