@@ -56,7 +56,10 @@ namespace hash
                 //        break;
                 //}
                 case 8:
-                    string paragraph = "To be or not to be";
+                    string paragraph = "Paranoids are not" +
+                        "paranoid because they are paranoid but" +
+                        "because they keep putting themselves" +
+                        "deliberately into paranoid avoidablesituations";
                     CountNumberOfOccurance(paragraph);
                     break;
 

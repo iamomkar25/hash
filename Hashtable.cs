@@ -15,19 +15,19 @@ namespace hash
             public v Value { get; set; }
         }
         private readonly int size;
-                                                                    //int[] arr;
+        //int[] arr;
         private readonly LinkedList<KeyValue<K, V>>[] items;
 
         public Hashtable(int size)
         {
             this.size = size;
-                                                                       //arr=new int[size];
+            //arr=new int[size];
             this.items = new LinkedList<KeyValue<K, V>>[size];
         }
         protected int GetArrayPosition(K key)
         {
-            int hash = key.GetHashCode();                    //637362
-            int position = hash % size;                      // 0 to 4
+            int hash = key.GetHashCode(); //637362
+            int position = hash % size; // 0 to 4
             return Math.Abs(position);
         }
 
@@ -59,8 +59,8 @@ namespace hash
                     }
                 }
             }
-            linkedList.AddLast(item);                   // to,2
-                                                      // Console.WriteLine(item.Key + " " + item.Value);
+            linkedList.AddLast(item); // to,2
+            // Console.WriteLine(item.Key + " " + item.Value);
         }
 
         public bool Exists(K key)
@@ -78,7 +78,7 @@ namespace hash
 
         public LinkedList<KeyValue<K, V>> GetArrayPositionAndLinkedList(K key)
         {
-            int position = GetArrayPosition(key);                         //index number of array
+            int position = GetArrayPosition(key); //index number of array
             LinkedList<KeyValue<K, V>> linkedList = GetLinkedList(position);
             return linkedList;
         }
@@ -95,13 +95,13 @@ namespace hash
                 {
                     itemFound = true;
                     foundItem = item;
-                                                  //linkedList.Remove(item);
+                    //linkedList.Remove(item);
                 }
             }
             if (itemFound)
             {
                 linkedList.Remove(foundItem);
-                                                  //Console.WriteLine("Removed successfully with key " + foundItem.Key);
+                //Console.WriteLine("Removed successfully with key " + foundItem.Key);
             }
         }
 
