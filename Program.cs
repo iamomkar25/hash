@@ -59,7 +59,7 @@ namespace hash
                     string paragraph = "Paranoids are not" +
                         "paranoid because they are paranoid but" +
                         "because they keep putting themselves" +
-                        "deliberately into paranoid avoidablesituations";
+                        "deliberately into paranoid avoidable situations";
                     CountNumberOfOccurance(paragraph);
                     break;
 
@@ -80,7 +80,7 @@ namespace hash
             }
             Console.WriteLine("Displaying after add operation");
             hashTable.Display();
-            string s = "or";
+            string s = "avoidable";
             hashTable.Remove(s);
             Console.WriteLine("After removed an item {0}", s);
             hashTable.Display();
