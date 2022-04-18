@@ -56,10 +56,7 @@ namespace hash
                 //        break;
                 //}
                 case 8:
-                    string paragraph = "Paranoids are not" +
-                        "paranoid because they are paranoid but" +
-                        "because they keep putting themselves" +
-                        "deliberately into paranoid avoidable situations";
+                    string paragraph = "To be or not to be";
                     CountNumberOfOccurance(paragraph);
                     break;
 
@@ -80,12 +77,12 @@ namespace hash
             }
             Console.WriteLine("Displaying after add operation");
             hashTable.Display();
-            string s = "avoidable";
+            string s = "or";
             hashTable.Remove(s);
             Console.WriteLine("After removed an item {0}", s);
             hashTable.Display();
             Console.ReadLine();
-
         }
+
     }
 }
